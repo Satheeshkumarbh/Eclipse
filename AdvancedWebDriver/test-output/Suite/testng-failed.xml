@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="day4.TestNGWebDriver2">
+        <methods>
+          <include name="Validation_Title"/>
+          <include name="Functionality_SearchText"/>
+          <include name="Validation_DownloadLinkExistance"/>
+        </methods>
+      </class> <!-- day4.TestNGWebDriver2 -->
+      <class name="day4.TestNGWebDriver01">
+        <methods>
+          <include name="Validation_Title"/>
+        </methods>
+      </class> <!-- day4.TestNGWebDriver01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

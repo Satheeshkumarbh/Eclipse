@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="none">
+  <test name="Sanity">
+  <parameter name="appurl" value="http://www.seleniumhq.org"></parameter>
+  <parameter name="propertyfile" value="FrameworkInput.properties"></parameter>
+  <parameter name="expectedTitle" value="Selenium"></parameter>
+    <classes>
+      <class name="day4.TestNGWebDriver3"/>
+    </classes>
+  </test> <!-- Sanity -->
+</suite> <!-- Suite1 -->

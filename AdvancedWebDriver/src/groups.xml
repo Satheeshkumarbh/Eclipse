@@ -1,0 +1,13 @@
+
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name ="regression"/>
+   </run> 
+  </groups>
+    <classes>
+      <class name="TestNG.NewTest3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
